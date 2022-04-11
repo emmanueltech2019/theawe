@@ -163,45 +163,45 @@
 					<div class="col-lg-4 col-md-6 m-b30">
                         <div class="p-a30 bg-gray clearfix">
 							<h4>Send Message Us</h4>
-							<div class="dzFormMsg"></div>
-							<!-- <form method="post" class="dzForm" action="script/contact.php">
-							<input type="hidden" value="Contact" name="dzToDo" >
+							<!-- <div class="dzFormMsg"></div> -->
+							<form  id="contactForm" >
+							<!-- <input type="	hidden" value="Contact" name="dzToDo" > -->
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <div class="input-group">
-                                                <input name="dzName" type="text" required class="form-control" placeholder="Your Name">
+                                                <input name="fullname" type="text" required class="form-control" placeholder="Your Name">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <div class="input-group"> 
-											    <input name="dzEmail" type="email" class="form-control" required  placeholder="Your Email Id" >
+											    <input name="email" type="email" class="form-control" required  placeholder="Your Email Id" >
                                             </div>
                                         </div>
                                     </div>
                                      <div class="col-lg-12">
                                         <div class="form-group">
                                             <div class="input-group">
-                                                <textarea name="dzMessage" rows="4" class="form-control" required placeholder="Your Message..."></textarea>
+                                                <textarea name="message" rows="4" class="form-control" required placeholder="Your Message..."></textarea>
                                             </div>
                                         </div>
                                     </div>
-									<div class="col-lg-12">
+									<!-- <div class="col-lg-12">
 										<div class="form-group">
 											<div class="input-group">
 												<div class="g-recaptcha" data-sitekey="6Lfodl8fAAAAAJPs-bQ7VIEWsE8XP6bdbj6heL0p" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
 												<input class="form-control d-none" style="display:none;" data-recaptcha="true" required data-error="Please complete the Captcha">
 											</div>
 										</div>
-									</div>
+									</div> -->
                                     <div class="col-lg-12">
                                         <button name="submit" type="submit" value="Submit" class="site-button "> <span>Submit</span> </button>
                                     </div>
                                 </div>
-                            </form> -->
-							<div data-paperform-id="4q1cf1mj"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
+                            </form>
+							<!-- <div data-paperform-id="4q1cf1mj"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script> -->
                         </div>
                     </div>
                     <!-- Left part END -->
@@ -327,7 +327,7 @@
 								<option value="Laser Stretch Mark and Scar removal ">Laser Stretch Mark and Scar removal  </option>
 								<option value="Chemical Peeling">Chemical Peeling </option>
 								<option value="Teeth Whitening ">Teeth Whitening  </option>
-								<option value="Hydrotherapy ">Hydrotherapy  </option>
+								<option value="Hydro Massage ">Hydro Massage  </option>
 								<option value="Deep Advanced Facials">Deep Advanced Facials </option>
 								
 							</select>
@@ -411,5 +411,6 @@
 <script src="./js/sweetalert.js"></script>
 <script src="./js/axios.js"></script>
 <script src="./js/main.js"></script>
+<script src="./js/contact.js"></script>
 </body>
 </html>
